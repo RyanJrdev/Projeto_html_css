@@ -1,0 +1,57 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 40px;
+    height: 800px;
+    width: 100vh;
+    background-color:rgb(255, 255, 255);
+    border-radius:10%;
+}
+.box{
+    height: 100%;
+    width: 50%;
+}
+#imagem-plano-negocios{
+    background-image: url(../images/plano_de_negocios.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#descricao-plano-negocios{
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items:center;
+}
+h1,p{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.paragrafos{
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 25px;
+}
+.titulos{
+    text-decoration: underline;
+}
+.subtitulos{
+    font: 20px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    margin-top:1.5rem;
+    text-decoration: underline;
+}

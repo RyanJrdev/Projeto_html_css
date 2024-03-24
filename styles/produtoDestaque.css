@@ -1,0 +1,11 @@
+#imagem-produto-destaque{
+    background-image: url(../layout/images/produto1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:40% 40% ;
+    background-color:transparent;
+}
+#nome-produto{
+    font-size: 20px;
+}

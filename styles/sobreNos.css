@@ -1,0 +1,6 @@
+#imagem-sobre-nos{
+    background-image: url(../images/sobre_nos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
